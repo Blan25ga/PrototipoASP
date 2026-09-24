@@ -120,6 +120,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="FormularioDireccion.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -207,6 +208,13 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Direccion.cs" />
+    <Compile Include="FormularioDireccion.aspx.cs">
+      <DependentUpon>FormularioDireccion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormularioDireccion.aspx.designer.cs">
+      <DependentUpon>FormularioDireccion.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
